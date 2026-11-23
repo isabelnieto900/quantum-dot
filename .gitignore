@@ -1,0 +1,31 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Streamlit / IDE
+.streamlit/secrets.toml
+.idea/
+.vscode/
+*.swp
+
+# OS / env secrets
+.DS_Store
+.env
+.env.*
+
+# Cursor / local tooling
+.claude/
+.cursor/
